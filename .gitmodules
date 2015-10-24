@@ -1,0 +1,3 @@
+[submodule "googlesitemapgenerator"]
+	path = googlesitemapgenerator
+	url = https://github.com/olszak94/googlesitemapgenerator
