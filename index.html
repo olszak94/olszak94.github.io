@@ -1,1 +1,27 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DasMehdi Text Effect</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="http://i.imgur.com/Pl6YiKD.gif" alt="image">
+    <p id="alert-txt"></p>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="libs/jquery.shuffleText.js"></script>
+<script>
+$( document ).ready(function() {
+    $("#alert-txt").shuffleText("dasMehdi just subscribed! and is awesome, testing longer text");
+});
+</script>
+
+</body>
+</html>
